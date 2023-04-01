@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+    .testimonios {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-body {
+        margin: 5%;
+    }
+}
+@media screen and (min-width: 769px) {
+    .testimonios {
+        display: flex;
+        flex-direction: row;
+    }
+    .about-body {
+        margin: 5% 20%;
+    }
+    .card {
+        width: 33%;
+    }
+}
+.about-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.testimoniosTitle {
+    margin-top: 5%;
+}

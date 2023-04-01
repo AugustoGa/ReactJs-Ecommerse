@@ -1,0 +1,11 @@
+/*NAVBAR E ICONOS*/
+.miNavbar {
+    background-color: #6062f3;
+    font-weight: 600;
+}
+.iconos {
+    margin: 0px 3px 0px 20px;
+}
+.iconos :hover {
+    color: rgba(255, 255, 255, .80);
+}

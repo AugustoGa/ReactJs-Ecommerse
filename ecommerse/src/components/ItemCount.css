@@ -1,0 +1,26 @@
+/*CONTADOR*/
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #6062f3;
+  }
+.botones p {
+    border-radius: 6px;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+.cajita {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}

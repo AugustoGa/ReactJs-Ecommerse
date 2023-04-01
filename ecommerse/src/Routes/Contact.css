@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    .contact {
+        margin: 5%;
+    }
+}
+@media screen and (min-width: 769px) {
+    .contact {
+        margin: 5% 20%;
+    }
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.icon {
+    margin: 25px;
+}
