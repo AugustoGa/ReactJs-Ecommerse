@@ -1,9 +1,8 @@
-import React, { useContext, useState } from 'react'
+
 import './ItemCount.css';
-import { CartContext } from '../context/CartContext';
+
 
 export default function ItemCount({ onAdd, sumar, restar, reset, stock, count }) {
-    const {cart, addToCart} = useContext(CartContext);
 
     return (
         <div className="cajita">

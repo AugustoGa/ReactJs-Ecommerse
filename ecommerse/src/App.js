@@ -11,6 +11,7 @@ import MyProvider from './context/CartContext';
 import Cart from './components/Cart';
 import { initializeApp } from "firebase/app";
 import Checkout from './components/Checkout';
+import { getFirestore} from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyC0_6LaufSyPHz3L9w6poCb6e4uDyhq2P0",
@@ -23,6 +24,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app)
 
 
 function App() {

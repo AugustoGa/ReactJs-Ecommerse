@@ -12,7 +12,7 @@ export default function ItemDetailContainer() {
   const [error, setError] = useState(false);
   const [cargando, setCargando] = useState(true);
   const [producto, setProducto] = useState(null);
-
+  
   useEffect(() => {
     const db = getFirestore();
     const productRef = doc(db, 'productos', id);
@@ -23,13 +23,13 @@ export default function ItemDetailContainer() {
     })
     .catch(error => {
       setError(error);
-      setCargando(false);
+      setCargando(error);
     }
     );
   }, [id]);
   
 
-if (cargando) {
+if (cargando !== error)  {
   return <div className="loader">  <Spinner animation="border" variant="danger" />
   </div>;
 }
