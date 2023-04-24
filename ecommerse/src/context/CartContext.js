@@ -37,7 +37,17 @@ const MyProvider = ({children}) => {
             window.localStorage.setItem(id, JSON.stringify(newItem));
         }
     }
-
+    //Poblar Checkout con LocalStorage
+    const populateCart = () => {
+        let arrayOfValues = Object.values(localStorage);
+        if (arrayOfValues.length > 0) {
+            let arrayOfProducts = [];
+            for (let i = 0; i < arrayOfValues.length; i++) {
+                arrayOfProducts.push(JSON.parse(arrayOfValues[i]));
+            }
+            setCart(arrayOfProducts);
+        }    
+    }
 
 
     //EmptyCart vacia el carrito
@@ -72,6 +82,7 @@ const MyProvider = ({children}) => {
         removeFromCart,
         getItemQuantity,
         getCartTotal,
+        populateCart
     }}>{children}</Provider>
 }
 export default MyProvider;
