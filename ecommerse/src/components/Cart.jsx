@@ -1,16 +1,12 @@
-import React, { useContext, useEffect} from 'react'
+import React, { useContext} from 'react'
 import { Link } from 'react-router-dom';
 import { CartContext } from '../context/CartContext';
 import './Cart.css';
 
 export default function Cart() {
-  const {cart, emptyCart, getCartTotal, removeFromCart, populateCart } = useContext(CartContext);
+  const {cart, emptyCart, getCartTotal, removeFromCart} = useContext(CartContext);
   const carritoVacio = cart.length === 0;
-  useEffect(() => {
-    populateCart();
-  }
-  , [populateCart])
-  
+
   return (
     <>
     <h2 className="cart-title">Mi Carrito</h2>
