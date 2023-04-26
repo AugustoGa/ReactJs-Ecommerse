@@ -5,8 +5,7 @@
 </div>
 
 <div id = "headerImg" align="center">
-    <img src="<iframe src="https://giphy.com/embed/YW1g39jepet2t5bcSh" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/CartoonNetworkLatam-space-brothers-warner-YW1g39jepet2t5bcSh">via GIPHY</a></p>"/>
-    <iframe src="https://giphy.com/embed/YW1g39jepet2t5bcSh" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/CartoonNetworkLatam-space-brothers-warner-YW1g39jepet2t5bcSh">via GIPHY</a></p>
+    <img src="https://giphy.com/embed/YW1g39jepet2t5bcSh"/>
 </div>
 
 
