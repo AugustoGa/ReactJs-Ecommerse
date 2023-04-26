@@ -5,7 +5,7 @@
 </div>
 
 <div id = "headerImg" align="center">
-    <img src="[https://media.giphy.com/media/Dh5q0sShxgp13DwrvG/giphy.gif](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)"/>
+    <img src="[[https://media.giphy.com/media/Dh5q0sShxgp13DwrvG/giphy.gif](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)](https://media.giphy.com/media/YW1g39jepet2t5bcSh/giphy.gif)"/>
 </div>
 
 
