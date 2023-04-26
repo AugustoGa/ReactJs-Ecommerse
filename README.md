@@ -12,6 +12,7 @@
      2 - Open your preferred code editor.
      3 - Run npm start in your console.
      4 - Open http://localhost:3000 to see it in your browser.
+</div>
      
      ---
      <h1 align="center">Build</h1>
