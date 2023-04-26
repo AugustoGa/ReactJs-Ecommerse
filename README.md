@@ -5,7 +5,7 @@
 </div>
 
 <div id = "headerImg" align="center">
-    <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="200"/>
+    <img src="<iframe src="https://giphy.com/embed/3oKIPnAiaMCws8nOsE" width="457" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-kitten-computer-3oKIPnAiaMCws8nOsE">via GIPHY</a></p>"/>
 </div>
 
 
