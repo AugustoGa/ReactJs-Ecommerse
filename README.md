@@ -3,13 +3,14 @@
     <h1 align="center">HI , I'm Augusto Gallo</h1>
     <h1 align="center">This is my React JS  Project</h1>
 </div>
-<div id = "header" align="center">
+
+<div id = "headerImg" align="center">
     <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif"/>
 </div>
 
 
 
-<div id = "header" align="center">
+<div id = "headerEcom" align="center">
      <h1 align="center"> Moontagne⛰: E-commerce con React</h1>
 </div>
 
