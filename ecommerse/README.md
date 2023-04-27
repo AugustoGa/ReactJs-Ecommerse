@@ -1,6 +1,6 @@
-# Hello! This is my React JS Final Project
-## I´m Augusto Gallo, a CODERHOUSE student. This is my proyect using REACT JS. 
-### Course 39575
+# Hello! This is my React JS Project
+
+
 <div id = "header" align="center">
     <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="200" height="200"/>&nbsp;
 </div>
