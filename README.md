@@ -5,7 +5,7 @@
 </div>
 
 <div id = "headerEcom" align="center">
-     <h1 align="center"> Moontagne⛰: E-commerce con React</h1>
+     <h1 align="center"> Moontagne⛰ : E-commerce con React</h1>
 </div>
 
 ### 💻 How to run this project
